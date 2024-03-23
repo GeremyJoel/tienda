@@ -1,0 +1,17 @@
+header {
+    background-color: #00ffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    min-width: 300px;
+}
+
+header ul li{
+    margin: auto;
+}
