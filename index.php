@@ -8,7 +8,10 @@
 </head>
 <body>
     <header>
-        <h2>Bienvenido Geremy</h2>
+        <div class="logo">
+            <img src="./assets/images/icon.jpg" alt="">
+            <h2>Bienvenido Geremy</h2>
+        </div>
         <ul>
             <li><a href="#"> Inicio</a></li>
             <li><a href="#"> Inicio Sesión</a></li>
@@ -16,7 +19,10 @@
         </ul>
     </header>
     <section>
-        
+        <div class="card">
+            <p>Esto es algo</p>
+            <img src="./assets/images/store.jpg" alt="Imagen de una tienda">
+        </div>
     </section>
 </body>
 </html>

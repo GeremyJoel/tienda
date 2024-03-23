@@ -1,8 +1,23 @@
+body {
+    background-color: #c1c1c1;
+}
 header {
-    background-color: #00ffff;
+    background-color: #000;
+    color: #f1f1f1;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+header .logo{
+  display: flex;
+  flex-direction: row;    
+}
+
+header .logo img{
+    width: 80px;
+    border-radius: 40px;
+    margin-right: 20px;
 }
 
 header ul {
@@ -10,8 +25,36 @@ header ul {
     flex-direction: row;
     justify-content: end;
     min-width: 300px;
+    list-style: none;
 }
 
 header ul li{
     margin: auto;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: #f1f1f1;
+}
+
+header ul li a:hover{
+    text-decoration: none;
+    color: #bbda07;
+    cursor: pointer;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+}
+section .card {
+    min-width: 80%;
+    background-color: #f1f1f1;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+section .card img{
+    width: 40%;
 }
